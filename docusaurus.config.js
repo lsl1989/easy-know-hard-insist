@@ -1,5 +1,5 @@
-const math = require('remark-math');
-const katex = require('rehype-katex');
+const math = require('remark-math').default;
+const katex = require('rehype-katex').default;
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Easy Know Hard Insist',
@@ -14,10 +14,10 @@ module.exports = {
   trailingSlash: false,
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css',
       type: 'text/css',
       integrity:
-        'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
+        'sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV',
       crossorigin: 'anonymous',
     },
   ],
